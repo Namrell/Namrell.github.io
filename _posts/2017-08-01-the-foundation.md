@@ -1,3 +1,8 @@
+---
+layout: default
+title: The Foundation
+---
+
 I have now got a hang for the basics and will start to design the page to actually look good
 and add the content that that I envisioned. Some pictures will need to be taken, a logo will
 need to be made and while I'm at it I will try to design a logo to put on my 3D-printed parts.

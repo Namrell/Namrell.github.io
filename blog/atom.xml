@@ -5,10 +5,10 @@ layout: feed
 <feed xmlns="http://www.w3.org/2005/Atom">
 
 	<title>Namrell's Blog</title>
-	<link href="http://namrell.github.io/blog/atom.xml" rel="self"/>
-	<link href="http://namrell.github.io/blog"/>
+	<link href="http://namrell.github.io/atom.xml" rel="self"/>
+	<link href="http://namrell.github.io/"/>
 	<updated>{{ site.time | date_to_xmlschema }}</updated>
-	<id>http://namrell.github.io/blog</id>
+	<id>http://namrell.github.io/</id>
 	<author>
 		<name>Namrell</name>
 		<email>namrell@protonmail.com</email>

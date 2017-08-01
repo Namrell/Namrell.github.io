@@ -9,5 +9,6 @@ need to be made and while I'm at it I will try to design a logo to put on my 3D-
 One for each plastic type in order to differentiate them. I looked around a bit for a reference
 system but so far no imediate success.
 
-In order to get some inspiration to what kind of sites that are possible to build https://github.com/jekyll/jekyll/wiki/sites
+In order to get some inspiration to what kind of sites that are possible to build 
+<a href="https://github.com/jekyll/jekyll/wiki/sites">List of sites</a>
 was found.

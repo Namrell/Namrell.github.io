@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: post
 title: "First step"
 date: 2017-07-31
 ---

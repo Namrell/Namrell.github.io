@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Journal
-notes: active
 ---
 
 	<h1>{{ page.title }}</h1>
@@ -11,28 +10,3 @@ notes: active
 	    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
 	  {% endfor %}
 	</ul>
-
-<div class="notes">
-		<div class="note single">
-			<h1 class="title">{{ page.title }}</h1>
-			
-			<h2 class="date"><info datetime="{{ page.date }}">
-				{{ page.date | date_to_string }} {% if page.author %} by {{ page.author }} {% endif %}
-			</info></h2>
-			<!-- Post content -->
-			<div class="notebody">
-				{{ content }}
-			</div>
-			<!-- Post info -->
-			<div class="noteinfo">
-			<!-- include some categories and tags maybe? -->
-			</div>
-
-			<hr>
-
-			<!-- Post comments -->
-			<div class="notecomments">
-				{% include disqus.html %}	 
-			</div>
-		</div><!-- / .note .single -->
-</div><!-- /.notes -->

@@ -1,6 +1,6 @@
 ---
-layout: posts
-title: Slow and steady
+layout: post
+title: The cooking pot
 comments: true
 ---
 

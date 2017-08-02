@@ -7,3 +7,5 @@ comments: true
 
 This is the first step on my journey. Before I dig deep into my proposed project I will update the site untill it looks
 the way I want it too. It will be fun!
+
+{% include disqus.html %}

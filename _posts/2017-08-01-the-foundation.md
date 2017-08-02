@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "The Foundation"
+comments: true
 ---
 
 I have now got a hang for the basics and will start to design the page to actually look good

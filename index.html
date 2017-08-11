@@ -4,7 +4,7 @@ title: Journal
 ---
 
 	<h1>{{ page.title }}</h1>
-	<ul class="posts">
+	<p class="posts">
 
 	  {% for post in site.posts %}
 	    <li><font size="6">
@@ -12,4 +12,4 @@ title: Journal
 	    </font>
 		    {{ post.content }}</li>
 	  {% endfor %}
-	</ul>
+	</p>

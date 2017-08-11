@@ -7,9 +7,9 @@ title: Journal
 	<ul class="posts">
 
 	  {% for post in site.posts %}
-	    <font size="6">
+	    <li><font size="6">
 	    <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> - <span>{{ post.date | date_to_string }}</span>  
 	    </font>
-	    {{ post.content }}
+		    {{ post.content }}</li>
 	  {% endfor %}
 	</ul>

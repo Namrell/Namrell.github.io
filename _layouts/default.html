@@ -8,6 +8,29 @@
    			<a href="/index.html"><img src="/header.jpg" alt="header" align="middle" width="380" height="120" /></a>
 		</head>
 		<body>
+
+
+
+    {% else %}
+      <li><a href="{{node.url}}">{{node.title}}</a></li>
+    {% endif %}
+  {% endfor %}
+			
+			
+			
+			<nav>
+	    		<ul>
+				{% for node in site.pages %}
+				    {% if page.url == node.url %}
+					<li><a href="{{node.url}}">{{node.title}} A</a></li>
+				    {% else %}
+      					<li><a href="{{node.url}}">{{node.title}} B</a></li>
+				    {% endif %}
+				{% endfor %}
+	    		</ul>
+			</nav>
+			
+			<!--
 			<nav>
 	    		<ul>
 	        		<li><a href="/">Journal</a></li>
@@ -16,6 +39,7 @@
 				<li><a href="/programming">Programming</a></li>
 	    		</ul>
 			</nav>
+			-->
 			<div class="container">
 
 			{{ content }}

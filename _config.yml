@@ -36,11 +36,11 @@ navigation:
 - text: Journal
   url: /
 - text: About
-  url: /about
+  url: /about/
 - text: Programming
-  url: /programming
+  url: /programming/
 - text: 3d-printing
-  url: /3d
+  url: /3d/
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

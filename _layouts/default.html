@@ -8,16 +8,6 @@
    			<a href="/index.html"><img src="/header.jpg" alt="header" align="middle" width="380" height="120" /></a>
 		</head>
 		<body>
-
-
-
-    {% else %}
-      <li><a href="{{node.url}}">{{node.title}}</a></li>
-    {% endif %}
-  {% endfor %}
-			
-			
-			
 			<nav>
 	    		<ul>
 				{% for node in site.pages %}

@@ -38,7 +38,7 @@ navigation:
 - text: About
   url: /about
 - text: Programming
-  url: /programming/index.html
+  url: /programming
 - text: 3d-printing
   url: /3d
 

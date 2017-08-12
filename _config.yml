@@ -32,6 +32,16 @@ plugins:
 #Blog-setting
 #permalink: /blog/:year/:month/:day/:title
 
+navigation:
+- text: Journal
+  url: /
+- text: About
+  url: /about
+- text: Programming
+  url: /programming
+- text: 3d-printing
+  url: /3d
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.

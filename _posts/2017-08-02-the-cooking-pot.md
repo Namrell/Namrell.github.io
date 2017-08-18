@@ -2,7 +2,7 @@
 layout: post
 title: The cooking pot
 comments: true
-categories: [webpage, 3D-printing]
+categories: [Web-page, 3D-printing]
 ---
 
 I have continued to add some small changes to the webpage. Mostly just a standardization of font size, a favicon and

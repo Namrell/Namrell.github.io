@@ -2,7 +2,7 @@
 layout: post
 title: "The Foundation"
 comments: true
-categories: [Web-page, 3D-printing]
+categories: [Web page, 3D-printing]
 ---
 
 I have now got a hang for the basics and will start to design the page to actually look good

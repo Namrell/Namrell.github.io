@@ -2,7 +2,6 @@
 layout: post
 title: The cooking pot
 comments: true
-category: page update
 ---
 
 I have continued to add some small changes to the webpage. Mostly just a standardization of font size, a favicon and

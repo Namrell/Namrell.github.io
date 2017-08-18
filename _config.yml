@@ -33,6 +33,10 @@ plugins:
 #Blog-setting
 #permalink: /blog/:year/:month/:day/:title
 
+#Pagination
+paginate: 2
+paginate_path: "/blog/page:num/"
+
 navigation:
 - text: Journal
   url: /

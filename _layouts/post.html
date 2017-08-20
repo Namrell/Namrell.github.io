@@ -3,9 +3,6 @@ layout: default
 ---
 <h1>{{ page.title }}</h1>
 
-
-  <h2>{{ page.date | date_to_string }}</h2>
-
 <div class="post-categories">
   {% if post %}
     {% assign categories = post.categories %}
@@ -13,6 +10,10 @@ layout: default
     {% assign categories = page.categories %}
   {% endif %}
   {% for category in categories %}
+  <a href="{{site.baseurl}}/categories/#{{category|slugize}}">{{}}</a>
+  <h2>{{ page.date | date_to_string | category}}</h2>
+
+
   <a href="{{site.baseurl}}/categories/#{{category|slugize}}">{{category}}</a>
   {% unless forloop.last %}&nbsp;{% endunless %}
   {% endfor %}

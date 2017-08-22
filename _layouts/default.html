@@ -11,16 +11,18 @@
 			<nav>
 	    		<ul class"navigation">
 				<font size="6.5">
-				{% for node in site.navigation %}
 				<table style="width:100%">
+				<tr>
+				{% for node in site.navigation %}
 				    {% if page.url == node.url %}
-					<tr><li><a href="{{node.url}}"><b>{{node.text}}</b></a></li></tr>
+					<th><li><a href="{{node.url}}"><b>{{node.text}}</b></a></li></th>
 				    {% else %}
-					<tr><li><a href="{{node.url}}"><small>{{node.text}}</small></a></li></tr>
+					<th><lh><a href="{{node.url}}"><small>{{node.text}}</small></a></li></th>
 				    {% endif %}
-				</table>
-				{% endfor %}
 				
+				{% endfor %}
+				</tr>
+				</table>
 				</font>
 	    		</ul>
 			</nav>

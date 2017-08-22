@@ -11,17 +11,16 @@
 			<nav>
 	    		<ul class"navigation">
 				<font size="6.5">
-				<table style="width:100%">
-				<tr>
 				{% for node in site.navigation %}
+				<table style="width:100%">
 				    {% if page.url == node.url %}
 					<li><a href="{{node.url}}"><b><th>{{node.text}}</th></b></a></li>
 				    {% else %}
 					<li><a href="{{node.url}}"><small><th>{{node.text}}</th></small></a></li>
 				    {% endif %}
-				{% endfor %}
-				</tr>
 				</table>
+				{% endfor %}
+				
 				</font>
 	    		</ul>
 			</nav>

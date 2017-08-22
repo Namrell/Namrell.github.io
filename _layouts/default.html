@@ -14,26 +14,16 @@
 				<table style="width:100%">
 				{% for node in site.navigation %}
 				    {% if page.url == node.url %}
-					<tr><li><a href="{{node.url}}"><b>{{node.text}}</b></a></li></tr>
+					<tr><td><li><a href="{{node.url}}"><b>{{node.text}}</b></a></li></td></tr>
 				    {% else %}
-					<tr><li><a href="{{node.url}}"><small>{{node.text}}</small></a></li></tr>
+					<tr><td><li><a href="{{node.url}}"><small>{{node.text}}</small></a></li></td></tr>
 				    {% endif %}
 				{% endfor %}
 				</table>
 				</font>
 	    		</ul>
 			</nav>
-			
-			<!--
-			<nav>
-	    		<ul>
-	        		<li><a href="/">Journal</a></li>
-		        	<li><a href="/about">About</a></li>
-	        		<li><a href="/3d">3d-printing</a></li>
-				<li><a href="/programming">Programming</a></li>
-	    		</ul>
-			</nav>
-			-->
+
 			<div class="container">
 
 			{{ content }}

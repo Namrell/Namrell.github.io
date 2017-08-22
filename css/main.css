@@ -33,6 +33,12 @@ h2 {
     font-weight: normal;
 }
 
+h3 {
+    font-size: 1.6em;
+    margin: 0px;
+    padding: 0px;
+    font-weight: normal;
+    }
 
 p {
     font-size: 1.3em;

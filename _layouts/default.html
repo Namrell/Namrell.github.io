@@ -12,13 +12,15 @@
 	    		<ul class"navigation">
 				<font size="6.5">
 				<table style="width:100%">
+				<tr>
 				{% for node in site.navigation %}
 				    {% if page.url == node.url %}
-					<tr><td><li><a href="{{node.url}}"><b>{{node.text}}</b></a></li></td></tr>
+					<th><li><a href="{{node.url}}"><b>{{node.text}}</b></a></li></th>
 				    {% else %}
-					<tr><td><li><a href="{{node.url}}"><small><td>{{node.text}}</small></a></li></td></tr>
+					<th><li><a href="{{node.url}}"><small><td>{{node.text}}</small></a></li></th>
 				    {% endif %}
 				{% endfor %}
+				</tr>
 				</table>
 				</font>
 	    		</ul>

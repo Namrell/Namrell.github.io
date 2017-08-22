@@ -15,9 +15,9 @@
 				<tr>
 				{% for node in site.navigation %}
 				    {% if page.url == node.url %}
-					<th><li><a href="{{node.url}}"><b>{{node.text}}</b></a></li></th>
+					<th align="center"><li><a href="{{node.url}}"><b>{{node.text}}</b></a></li></th>
 				    {% else %}
-					<th><lh><a href="{{node.url}}"><small>{{node.text}}</small></a></li></th>
+					<th align="center"><li><a href="{{node.url}}"><small>{{node.text}}</small></a></li></th>
 				    {% endif %}
 				
 				{% endfor %}

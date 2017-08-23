@@ -5,19 +5,19 @@
 			<link rel="icon" type="image/png" href="/favicon.png"/>
 			<!-- link to main stylesheet -->
 			<link rel="stylesheet" type="text/css" href="/css/main.css">
-   			<a href="/index.html"><img src="/header.jpg" alt="header" align="middle" width="600" height="205" /></a>
+   			<a href="/index.html"><img src="/header.jpg" alt="header" align="middle" width="650" height="220" /></a>
 		</head>
 		<body>
 			<nav>
 	    		<ul class"navigation">
 				<font size="6.5">
-				<table style="width:600px">
+				<table style="width:650px">
 				<tr>
 				{% for node in site.navigation %}
 				    {% if page.url == node.url %}
-					<th align="center"><li><a href="{{node.url}}"><b>{{node.text}}</b></a></li></th>
+					<th align="center"><c><li><a href="{{node.url}}"><b>{{node.text}}</b></a></li></c></th>
 				    {% else %}
-					<th align="center"><li><a href="{{node.url}}"><small>{{node.text}}</small></a></li></th>
+					<th align="center"><c><li><a href="{{node.url}}"><small>{{node.text}}</small></a></li></c></th>
 				    {% endif %}
 				
 				{% endfor %}
